@@ -1,0 +1,29 @@
+[workspace]
+authors = ["Kasper Munch <kaspermunch@birc.au.dk>"]
+channels = ["conda-forge", "main", "r", "msys2", "kaspermunch", "bioconda"]
+name = "maps"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+geoplot = "*"
+jupyter = "*"
+geopandas = "0.11.*"
+pandas = "*"
+adjusttext = ">=1.4.0,<2"
+seaborn = "*"
+numpy = "*"
+openpyxl = "*"
+jupyterlab = "*"
+cartopy = "*"
+matplotlib = "*"
+lxml = "*"
+ete3 = "*"
+rtree = "*"
+cryptography = ">=42.0.2,<43"
+earthdata = ">=0.4.1,<0.5"
+earthaccess = ">=0.12.0,<0.13"
+rioxarray = ">=0.18.1,<0.19"
+owslib = ">=0.35.0,<0.36"
